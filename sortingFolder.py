@@ -43,7 +43,7 @@ _dir = ''
 if len(sys.argv) > 1:
     _dir = sys.argv[1]
 else:
-    print('Enter the path to folder \nError')
+    print('Enter path to folder \nError')
     exit()
 
 main(_dir)
